@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:shop/server/server.dart';
 import 'package:shop/util/Cookies.dart'; // For saving user and token
-import 'dart:convert'; // For jsonEncode
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
